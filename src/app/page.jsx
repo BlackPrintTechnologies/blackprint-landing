@@ -105,7 +105,7 @@ export default function Home() {
                 {isSubmitting ? 'Submitting...' : 'Notify Me'}
               </button>
             </form>
-            {submitStatus === 'success' && <p className={styles.successMessage}>Thank you for subscribing!</p>}
+            {submitStatus === 'success' && <p className={styles.successMessage}>You&apos;ve been added to the list!</p>}
             {submitStatus === 'error' && <p className={styles.errorMessage}>An error occurred. Please try again.</p>}
           </div>
         </main>
