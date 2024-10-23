@@ -136,7 +136,7 @@
 }
 
 .notifyButton {
-  background-color: #4CAF50;
+  background-color: #EC6A96;
   color: white;
   border: none;
   padding: 0.75rem;
@@ -148,7 +148,7 @@
 }
 
 .notifyButton:hover {
-  background-color: #45a049;
+  background-color: #D85580;
 }
 
 .successMessage, .errorMessage {
